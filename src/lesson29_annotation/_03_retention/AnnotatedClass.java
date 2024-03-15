@@ -1,6 +1,6 @@
 package lesson29_annotation._03_retention;
 
 @RetentionAnnotation
-@Deprecated
+@Deprecated(forRemoval = true)
 public class AnnotatedClass {
 }
